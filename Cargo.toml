@@ -1,0 +1,18 @@
+[package]
+name = "scan-fonts"
+version = "1.0.0"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/yoshuawuyts/scan-fonts"
+documentation = "https://docs.rs/scan-fonts"
+description = "Recursively list which fonts are available in a directory."
+keywords = ["font", "fonts", "scan", "readdir", "readdirp"]
+categories = ["development-tools", "filesystem", "gui", "multimedia", "text-processing"]
+authors = ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]
+readme = "README.md"
+edition = "2018"
+
+[dependencies]
+failure = "0.1.3"
+getset = "0.0.6"
+
+[dev-dependencies]
