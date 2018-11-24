@@ -13,7 +13,7 @@ __Basic usage__
 ```rust
 use scan_fonts::scan_fonts;
 
-for font in scan_fonts(".") {
+for font in scan_fonts(".")? {
   println!("font {}", font.name);
 }
 ```
